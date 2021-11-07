@@ -39,7 +39,7 @@ Feature: Imdb_title_id, title, year, date_published, genre, duration, country, l
 Categorical Feature: title, year, genre, country, language, direction, reviews
 Quantitative Feature: Date, Duration, vote, budget, gross income, total votes, us_voters rating, 
 
-Results: Accuracy, Confusion Matrix
+# Results: Accuracy, Confusion Matrix
 
 # Summary of Significant Steps
 Join the four tables to create a single table, analyze the datasets
