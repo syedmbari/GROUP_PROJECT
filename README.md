@@ -44,22 +44,23 @@ Quantitative Feature: Date, Duration, vote, budget, gross income, total votes, u
 # Summary of Significant Steps
 Join the four tables to create a single table, analyze the datasets
 
-Data Cleaning, and dropping unwanted rows and columns
+- Data Cleaning, and dropping unwanted rows and columns
 
-Find the relationship between the feature and the target, find the importance of each feature, drop the columns according to the importance ranking
+- Find the relationship between the feature and the target, find the importance of each feature, drop the columns according to the importance ranking
 
-Data splitting into training and testing sets
+- Data splitting into training and testing sets
 
-Train and Fit the Machine Learning Model using the processed and cleaned data
+- Train and Fit the Machine Learning Model using the processed and cleaned data
 
-Calculated the balanced accuracy score along with the confusion matrix
+- Calculated the balanced accuracy score along with the confusion matrix
 
-Compare accuracy in different models ; SVM, Random Forest and Neural Networks
+- Compare accuracy in different models ; SVM, Random Forest and Neural Networks
 
-Add results to database such as Postgres pgAdmin
+- Add results to database such as Postgres pgAdmin
 
-Reports outcomes in Tableau for Visualization.
-Final Summary
+- Reports outcomes in Tableau for Visualization.
+-
+- Final Summary
 
 
 ## Purpose of Project
