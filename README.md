@@ -32,14 +32,14 @@ IMDb Ratings.csv
 
 Machine Learning Models: Linear Regression, Logistic Regression, Random Forest,  SVM, K-means Algorithm
 
-Target: IMDb Total Average Weighted Rating
+**Target**: IMDb Total Average Weighted Rating
 Output: IMDb Rating
 
-Feature: Imdb_title_id, title, year, date_published, genre, duration, country, language, director, writer, reviews
+**Feature**: Imdb_title_id, title, year, date_published, genre, duration, country, language, director, writer, reviews
 Categorical Feature: title, year, genre, country, language, direction, reviews
 Quantitative Feature: Date, Duration, vote, budget, gross income, total votes, us_voters rating, 
 
-# Results: Accuracy, Confusion Matrix
+**Results**: Accuracy, Confusion Matrix
 
 # Summary of Significant Steps
 Join the four tables to create a single table, analyze the datasets
