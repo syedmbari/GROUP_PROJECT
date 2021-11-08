@@ -56,4 +56,4 @@ Final Summary
 
 ## Purpose of Project
 
-
+Predicting the IMdb rating (weighte average_votes) using machine learning algorithms and finding suitable  model for best accuracy
