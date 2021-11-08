@@ -62,6 +62,7 @@ Join the four tables to create a single table, analyze the datasets
 
 - Final Summary
 
+https://public.tableau.com/app/profile/syed.bari/viz/CapstoneSegment1_16362709165670/Dashboard1?publish=yes
 
 ## Purpose of Project
 
