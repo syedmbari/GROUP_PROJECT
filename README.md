@@ -30,7 +30,27 @@ IMDb Ratings.csv
 
 ![image](https://user-images.githubusercontent.com/70987568/140665970-26472cbf-39b3-4249-a0c6-4f6a8c1d4dca.png)
 
-Machine Learning Models: Linear Regression, Logistic Regression, Random Forest,  SVM, K-means Algorithm
+Machine Learning Models:
+
+Multiple Linear Regression
+
+Inputs, X:   title, date_published, genre, duration, country, language, director, writer, reviews, title, year, genre, country, language, direction, reviews
+Output, Y:  Average Weighted Rating
+
+Decision Tree:
+Inputs, X:   title, date_published, genre, duration, country, language, director, writer, reviews, title, year, genre, country, language, direction, reviews
+Output, Y:  Average Weighted Rating
+
+Random Forest
+
+Inputs, X:   title, date_published, genre, duration, country, language, director, writer, reviews, title, year, genre, country, language, direction, reviews
+Output, Y:  Average Weighted Rating
+
+SVM
+Inputs, X:   title, date_published, genre, duration, country, language, director, writer, reviews, title, year, genre, country, language, direction, reviews
+Output, Y:  Average Weighted Rating
+
+
 
 **Target**: IMDb Total Average Weighted Rating
 Output: IMDb Rating
