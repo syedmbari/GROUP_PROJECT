@@ -36,23 +36,43 @@ IMDb Ratings.csv
 
 Inputs, X:   title, date_published, genre, duration, country, language, director, writer, reviews, title, year, genre, country, language, direction, reviews
 
+<img width="331" alt="Screen Shot 2021-11-09 at 8 35 46 PM" src="https://user-images.githubusercontent.com/57809798/141033535-20d4612d-802a-414d-babe-6217bfb0b55f.png">
+
 Output, Y:  Average Weighted Rating
+
+<img width="326" alt="Screen Shot 2021-11-09 at 8 36 07 PM" src="https://user-images.githubusercontent.com/57809798/141033557-74667009-10de-46c7-bd1e-5c5e9355c1a0.png">
+
+
+
+
 
 ### Decision Tree:
 Inputs, X:   title, date_published, genre, duration, country, language, director, writer, reviews, title, year, genre, country, language, direction, reviews
 
+<img width="331" alt="Screen Shot 2021-11-09 at 8 35 46 PM" src="https://user-images.githubusercontent.com/57809798/141033535-20d4612d-802a-414d-babe-6217bfb0b55f.png">
+
 Output, Y:  Average Weighted Rating
+
+<img width="326" alt="Screen Shot 2021-11-09 at 8 36 07 PM" src="https://user-images.githubusercontent.com/57809798/141033557-74667009-10de-46c7-bd1e-5c5e9355c1a0.png">
 
 ### Random Forest
 
 Inputs, X:   title, date_published, genre, duration, country, language, director, writer, reviews, title, year, genre, country, language, direction, reviews
 
+<img width="331" alt="Screen Shot 2021-11-09 at 8 35 46 PM" src="https://user-images.githubusercontent.com/57809798/141033535-20d4612d-802a-414d-babe-6217bfb0b55f.png">
+
 Output, Y:  Average Weighted Rating
+
+<img width="326" alt="Screen Shot 2021-11-09 at 8 36 07 PM" src="https://user-images.githubusercontent.com/57809798/141033557-74667009-10de-46c7-bd1e-5c5e9355c1a0.png">
 
 ### SVM
 Inputs, X:   title, date_published, genre, duration, country, language, director, writer, reviews, title, year, genre, country, language, direction, reviews
 
+<img width="331" alt="Screen Shot 2021-11-09 at 8 35 46 PM" src="https://user-images.githubusercontent.com/57809798/141033535-20d4612d-802a-414d-babe-6217bfb0b55f.png">
+
 Output, Y:  Average Weighted Rating
+
+<img width="326" alt="Screen Shot 2021-11-09 at 8 36 07 PM" src="https://user-images.githubusercontent.com/57809798/141033557-74667009-10de-46c7-bd1e-5c5e9355c1a0.png">
 
 
 
