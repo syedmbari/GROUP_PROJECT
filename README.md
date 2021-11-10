@@ -30,7 +30,7 @@ IMDb Ratings.csv
 
 ![image](https://user-images.githubusercontent.com/70987568/140665970-26472cbf-39b3-4249-a0c6-4f6a8c1d4dca.png)
 
-# Machine Learning Models:
+## Machine Learning Models:
 
 ### Multiple Linear Regression
 
