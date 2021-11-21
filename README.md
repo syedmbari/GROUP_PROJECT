@@ -103,14 +103,15 @@ Output, Y:  Average Weighted Rating
 #### Limitations
 
 ### 4. SVM
-
-
+Since SVM is a binary classifier, we had to split the target in our data into two classications: Ratings above 7 and Ratings below 7.
 
 
 #### Benefits
 
-#### Limitations
 
+#### Limitations
+The dataset we used for this project is quite massive which is why training the dataset for this machine learning model took immense amount of time. One way we dealt with this issue is by selecting a random sample from the dataset and training it for the model. 
+Another limitation is that this model can only classify data in to two groups. So, instead of predicting the average rating of the movie, this model can only predict a certain window the rating can lie in.
 
 ### 5. Gradient Boosting
 
