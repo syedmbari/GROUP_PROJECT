@@ -27,10 +27,10 @@ IMDb Ratings.csv
 
 ## Database
 AWS link for the IMDb datasets
-1. IMDb_ratings.csv [ Link ] (https://imdbdatasetuoft.s3.us-east-2.amazonaws.com/IMDb+ratings.csv) 
-2. IMDb_movies.csv [Link] (https://imdbdatasetuoft.s3.us-east-2.amazonaws.com/IMDb+movies.csv)
-3. Encoded_data.csv [Link] (https://imdbdatasetuoft.s3.us-east-2.amazonaws.com/Encoded_Data.csv)
-4. IMDb_data.csv [Link] (https://imdbdatasetuoft.s3.us-east-2.amazonaws.com/IMDb_data.csv)
+1. IMDb_ratings.csv [ Link ](https://imdbdatasetuoft.s3.us-east-2.amazonaws.com/IMDb+ratings.csv) 
+2. IMDb_movies.csv [Link](https://imdbdatasetuoft.s3.us-east-2.amazonaws.com/IMDb+movies.csv)
+3. Encoded_data.csv [Link](https://imdbdatasetuoft.s3.us-east-2.amazonaws.com/Encoded_Data.csv)
+4. IMDb_data.csv [Link](https://imdbdatasetuoft.s3.us-east-2.amazonaws.com/IMDb_data.csv)
 
 
 ## Machine Learning Models: Linear Regression, Logistic Regression, Random Forest,  SVM, K-means Algorithm
