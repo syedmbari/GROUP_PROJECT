@@ -157,7 +157,9 @@ Join the four tables to create a single table, analyze the datasets
 - Final Summary
 
 - [Tableau link](https://public.tableau.com/app/profile/syed.bari/viz/CapstoneSegment1_16362709165670/Dashboard1?publish=yes)
-- [Tableau link (Language vs Weighted Av. rating)] (https://public.tableau.com/app/profile/wardah.anis/viz/FinalProject_16373754134540/Sheet4?publish=yes)
+- [Tableau link (Language vs Weighted Av. rating)](https://public.tableau.com/app/profile/wardah.anis/viz/languagevsaveragerating/Sheet1?publish=yes)
+- [Tableau link (Country vs Weighted Av. rating)](https://public.tableau.com/app/profile/wardah.anis/viz/CountryvsAverageRating/Sheet1?publish=yes)
+
 
 
 ## Purpose of Project
