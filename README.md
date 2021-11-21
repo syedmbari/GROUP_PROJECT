@@ -64,11 +64,11 @@ IMDb Ratings.csv
 
 ![image](https://user-images.githubusercontent.com/70987568/140665970-26472cbf-39b3-4249-a0c6-4f6a8c1d4dca.png)
 
+## Machine Learning Models:
 
-Tables Used: Imdb_ratings.csv, IMDB_movie.csv
+### Multiple Linear Regression
 
-
-Inputs, X:   genre, duration, country, language, weighted_average_rating, tot_voters_below_30, tot_voters_below_18, tot_voters_above_45, tot_voters_below_45, tot_male_voters, tot_female_voters
+Inputs, X:   title, date_published, genre, duration, country, language, director, writer, reviews, title, year, genre, country, language, direction, reviews
 
 <img width="331" alt="Screen Shot 2021-11-09 at 8 35 46 PM" src="https://user-images.githubusercontent.com/57809798/141033535-20d4612d-802a-414d-babe-6217bfb0b55f.png">
 
@@ -76,63 +76,48 @@ Output, Y:  Average Weighted Rating
 
 <img width="326" alt="Screen Shot 2021-11-09 at 8 36 07 PM" src="https://user-images.githubusercontent.com/57809798/141033557-74667009-10de-46c7-bd1e-5c5e9355c1a0.png">
 
-## Machine Learning Models:
 
 
 
 
+### Decision Tree:
+Inputs, X:   title, date_published, genre, duration, country, language, director, writer, reviews, title, year, genre, country, language, direction, reviews
 
+<img width="331" alt="Screen Shot 2021-11-09 at 8 35 46 PM" src="https://user-images.githubusercontent.com/57809798/141033535-20d4612d-802a-414d-babe-6217bfb0b55f.png">
 
-### 1. Multiple Linear Regression
+Output, Y:  Average Weighted Rating
 
-#### Benefits
+<img width="326" alt="Screen Shot 2021-11-09 at 8 36 07 PM" src="https://user-images.githubusercontent.com/57809798/141033557-74667009-10de-46c7-bd1e-5c5e9355c1a0.png">
 
-#### Limitations
+### Random Forest
 
-### 2. Decision Tree:
+Inputs, X:   title, date_published, genre, duration, country, language, director, writer, reviews, title, year, genre, country, language, direction, reviews
 
-#### Benefits
+<img width="331" alt="Screen Shot 2021-11-09 at 8 35 46 PM" src="https://user-images.githubusercontent.com/57809798/141033535-20d4612d-802a-414d-babe-6217bfb0b55f.png">
 
-#### Limitations
+Output, Y:  Average Weighted Rating
 
+<img width="326" alt="Screen Shot 2021-11-09 at 8 36 07 PM" src="https://user-images.githubusercontent.com/57809798/141033557-74667009-10de-46c7-bd1e-5c5e9355c1a0.png">
 
-### 3. Random Forest Regression
+### SVM
+Inputs, X:   title, date_published, genre, duration, country, language, director, writer, reviews, title, year, genre, country, language, direction, reviews
 
-#### Benefits
+<img width="331" alt="Screen Shot 2021-11-09 at 8 35 46 PM" src="https://user-images.githubusercontent.com/57809798/141033535-20d4612d-802a-414d-babe-6217bfb0b55f.png">
 
-#### Limitations
+Output, Y:  Average Weighted Rating
 
-### 4. SVM
+<img width="326" alt="Screen Shot 2021-11-09 at 8 36 07 PM" src="https://user-images.githubusercontent.com/57809798/141033557-74667009-10de-46c7-bd1e-5c5e9355c1a0.png">
 
-
-
-
-#### Benefits
-
-#### Limitations
-
-
-### 5. Gradient Boosting
-
-
-#### Benefits
-
-#### Limitations
-
-
-### 6. Deep Learning
-
-
-#### Benefits
-
-#### Limitations
 
 
 **Target**: IMDb Total Average Weighted Rating
 Output: IMDb Rating
 
+**Feature**: Imdb_title_id, title, year, date_published, genre, duration, country, language, director, writer, reviews
+Categorical Feature: title, year, genre, country, language, direction, reviews
+Quantitative Feature: Date, Duration, vote, budget, gross income, total votes, us_voters rating, 
 
-**Results**: Accuracy
+**Results**: Accuracy, Confusion Matrix
 
 # Summary of Significant Steps
 Join the four tables to create a single table, analyze the datasets
@@ -156,7 +141,9 @@ Join the four tables to create a single table, analyze the datasets
 - Final Summary
 
 - [Tableau link](https://public.tableau.com/app/profile/syed.bari/viz/CapstoneSegment1_16362709165670/Dashboard1?publish=yes)
-- [Tableau link (Language vs Weighted Av. rating)] (https://public.tableau.com/app/profile/wardah.anis/viz/FinalProject_16373754134540/Sheet4?publish=yes)
+- [Tableau link(language vs. average rating)](https://public.tableau.com/app/profile/wardah.anis/viz/languagevsaveragerating/Sheet1?publish=yes)
+- [Tableau link(country vs average rating)](https://public.tableau.com/app/profile/wardah.anis/viz/CountryvsAverageRating/Sheet1?publish=yes)
+
 
 
 ## Purpose of Project
