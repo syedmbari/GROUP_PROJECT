@@ -47,6 +47,15 @@ Add results to database such as Postgres pgAdmin
 Reports outcomes in Tableau for Visualization.
 Final Summary
 
+AWS [here] (https://imdb-ratings-project-2021.s3.us-east-2.amazonaws.com/IMDb_Lang.csv)
+AWS [here] (https://imdb-ratings-project-2021.s3.us-east-2.amazonaws.com/IMDb_ratings.csv)
+AWS [here] (https://imdb-ratings-project-2021.s3.us-east-2.amazonaws.com/Encoded_IMDb_data.csv)
+AWS [here] (https://imdb-ratings-project-2021.s3.us-east-2.amazonaws.com/IMDb_movies1.csv)
+
+Tableau [here] (https://public.tableau.com/app/profile/adegbenga.olusoji.ayoola/viz/GROUPPROJECT_16362489603570/AverageVotebyCountry?publish=yes)
+Tableau [here] (https://public.tableau.com/app/profile/adegbenga.olusoji.ayoola/viz/GROUPPROJECT_16362489603570/Sheet1?publish=yes)
+
+
 ## Data used
 We collected all movie data from [here](https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset?select=IMDb+ratings.csv)
 
