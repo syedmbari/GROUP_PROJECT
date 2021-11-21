@@ -55,6 +55,17 @@ AWS [here] (https://imdb-ratings-project-2021.s3.us-east-2.amazonaws.com/IMDb_mo
 Tableau [here] (https://public.tableau.com/app/profile/adegbenga.olusoji.ayoola/viz/GROUPPROJECT_16362489603570/AverageVotebyCountry?publish=yes)
 Tableau [here] (https://public.tableau.com/app/profile/adegbenga.olusoji.ayoola/viz/GROUPPROJECT_16362489603570/Sheet1?publish=yes)
 
+**Percentage of voting**
+
+![Votes_percent](votes_percent.png)
+
+**Highest genre of votes from 8 to 10**
+
+![Genre](genre.png)
+
+**Comparing the duration from 8 to 10**
+
+![duration](duration.png)
 
 ## Data used
 We collected all movie data from [here](https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset?select=IMDb+ratings.csv)
