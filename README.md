@@ -87,10 +87,15 @@ Output, Y:  Average Weighted Rating
 
 ## Machine Learning Models:
 
+#### Description of Preliminary Data Processsing
 
+-  The very first steps include importing the libraries and importing the datasets which are IMDB_movies.csv a total of 22 columns and IMDB_ratings.csv a total of 49 columns
+-  The IMDB_movies.csv contained the features titel, year, genre, duration, country, language, director, actor, writer, description, average vote, budget, review from users, review from critics
 
-
-
+#### Description of preliminary feature engineering and selection
+- Identify the dependent and the independent variable. After looking through the dataset the features removed were USA gross income, World gross income, metascore due to the null data. Other features were removed due to low correlation to the dependent variable "weighed average rating". The independent variable are as follows [genre, duration, country, language, weighted_average_rating, tot_voters_below_30, tot_voters_below_18, tot_voters_above_45, tot_voters_below_45, tot_male_voters, tot_female_voters]
+- The dataset where the cleaned by addressing the null values and dropping hte null rows
+- After the cleaning process the categorical data like genre, country and language carrying multiple values were addressed using binary encoding with help of excel sheets
 
 ### 1. Multiple Linear Regression
 
@@ -106,29 +111,36 @@ Output, Y:  Average Weighted Rating
 
 
 ### 3. Random Forest Regression
- Random Forest Regression is a supervised learning algorithm that uses ensemble learning method for regression. Ensemble learning method is a technique that combines predictions from multiple machine learning algorithms to make a more accurate prediction than a single model.
+ Random Forest Regression is a supervised learning algorithm that uses ensemble learning method for regression. Ensemble learning method is a technique that combines predictions from multiple machine learning algorithms to make a more accurate prediction than a single model. A random forest regressor works with data having a numeric or continuous output and they cannot be defined by classes.
  ##### Random Forest algorithm
  - Pick at random k data points from the training set.
 - Build a decision tree associated to these k data points.
 - Choose the number N of trees you want to build and repeat steps 1 and 2.
 - For a new data point, make each one of your N-tree trees predict the value of y for the data point in question and assign the new data point to the average across all of the predicted y values.
  
-#### Description of Preliminary Data Processsing
 
--  The very first steps include importing the libraries and importing the datasets which are IMDB_movies.csv a total of 22 columns and IMDB_ratings.csv a total of 49 columns
-- Identify the dependent and the independent variable. After looking through the dataset the features removed were USA gross income, World gross income, metascore due to the null data. Other features were removed due to low correlation to the dependent variable "weighed average rating". The independent variable are as follows [genre, duration, country, language, weighted_average_rating, tot_voters_below_30, tot_voters_below_18, tot_voters_above_45, tot_voters_below_45, tot_male_voters, tot_female_voters]
-- The dataset where the cleaned by addressing the null values and dropping hte null rows
-- After the cleaning process the categorical data like genre, country and language carrying multiple values were addressed using binary encoding with help of excel sheets
-- Split the dataset into the Training set and Test set. The training set contains known output from which the model learns, test set then tests the model’s predictions based on what it learned from the training set
-
-#### Description of preliminary feature
-engineering and preliminary feature
-selection
 #### Description of how data was split into
-training and testing sets
+- Dependent and Independent variables were assigned to X(features except weighted average rating) and Y (weighted average rating) variablesrespectively
+
+- Split the dataset into the Training set and Test set. The training set contains known output from which the model learns, test set then tests the model’s predictions based on what it learned from the training set, with the random state=78.
+- Fitting the Standard Scaler with the training data. Scaling the data.
+- Create a random forest regressor, did model fitting with n_estimator from 50 to 800 with the random state being 1
+
+#### Results
+Scores for each for the models were as follows:
+
+
 #### Benefits
+- Reduces overfitting in decision trees and improved performace
+- Random Forests are not influenced by outliers to a fair degree. It does this by binning the variables
+- Automates missing values present in the data
+- Normalising of data is not required as it uses a rule-based approach.
+
 
 #### Limitations
+- Random forest is like a black box algorithm, you have very little control over what the model does
+- Requires much time for training as it combines a lot of decision trees to determine the class
+- Due to ensemble of decision trees, it also suffers interpretability and fails to determine the significance of each variable.
 
 ### 4. SVM
 
