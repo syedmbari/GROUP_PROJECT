@@ -109,6 +109,7 @@ Output, Y:  Average Weighted Rating
 <img width="1029" alt="Screen Shot 2021-11-21 at 7 52 59 PM" src="https://user-images.githubusercontent.com/57809798/142786306-c54ba861-39c8-40ff-9d5c-b5b72e2d8ea6.png">
 
 ### 1. Multiple Linear Regression
+[Go to file]()
 Linear Regression is a very simple algorithm that can be implemented very easily to give satisfactory results.Furthermore, these models can be trained easily and efficiently even on systems with relatively low computational power when compared to other complex algorithms. Linear regression has a considerably lower time complexity when compared to some of the other machine learning algorithms.The mathematical equations of Linear regression are also fairly easy to understand and interpret
 
 #### Benefits
@@ -123,6 +124,7 @@ Outliers can have a very big impact on linear regression's performance and hence
 
 
 ### 2. SVM
+[Go to File]()
 Since SVM is a binary classifier, we had to split the target in our data into two classications: Ratings above 7 and Ratings below 7.
 
 
@@ -136,7 +138,8 @@ Another limitation is that this model can only classify data in to two groups. S
 
 
 
-### 3. Random Forest Regression
+### 3. Random Forest Regression 
+[Go to file](https://github.com/syedmbari/GROUP_PROJECT/blob/49869298575b03ff4dc39f7266fc98133f563a25/Random_Forest_Regression%20(1).ipynb)
 
  Random Forest Regression is a supervised learning algorithm that uses ensemble learning method for regression. Ensemble learning method is a technique that combines predictions from multiple machine learning algorithms to make a more accurate prediction than a single model. A random forest regressor works with data having a numeric or continuous output and they cannot be defined by classes.
  ##### Random Forest algorithm
