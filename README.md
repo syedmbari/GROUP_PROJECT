@@ -1,10 +1,12 @@
 # GROUP_PROJECT
 
+[Segment2 Google Slide Presentation](https://github.com/syedmbari/GROUP_PROJECT/blob/syed_bari/Group%20Project-%20Movie%20DataSet.pdf)
+
+
 - [Topic](#topic)
 - [Reason for the topic](#reason-for-the-topic)
 - [Data used](#data-used)
 - [Purpose of Project](#purpose-of-project)
-- [Segment2 Google Slide Presentation](https://github.com/syedmbari/GROUP_PROJECT/blob/syed_bari/Group%20Project-%20Movie%20DataSet.pdf)
 - [Machine Learning Model](#machine-learning-models)
 - [AWS Database Links](#aws-database-links)
 - [Dashboard Links](#dashboard-links)
