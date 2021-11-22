@@ -128,6 +128,8 @@ Scores for each for the models were as follows:  [0.49415757514316994,0.49470089
 
 Maximum Score: 0.496
 
+The reason for the low score would be due to insufficent data relating to the average ratingg variable and relevance to the problem although the score has increased from previos linear regression model by 20% more.
+
 
 <img width="427" alt="Screen Shot 2021-11-21 at 9 14 47 PM" src="https://user-images.githubusercontent.com/57809798/142791162-29f355ff-1a00-43ed-bbed-3f804fa2428e.png">
 
@@ -178,10 +180,10 @@ Classification Models : Accuracy
 
 Regression Models : Mean Square Error, Score
 
-- **Multiple linear Regression** :  
-- **Support Vector Machine**
+- **Multiple linear Regression** :  Best Score : 0.244
+- **Support Vector Machine**.  Accuracy : 0.86
 - **Random Forest Regression**   Best Score : 0.4961116558077189
-- **Gradient Boosting**  Accuracy : 0.40275730924649394
+- **Gradient Boosting**  Accuracy : 0.98
 - **Deep Learning**
 
 # AWS Database Links
