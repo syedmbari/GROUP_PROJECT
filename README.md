@@ -79,7 +79,7 @@ Output, Y:  Average Weighted Rating
 <img width="1029" alt="Screen Shot 2021-11-21 at 7 52 59 PM" src="https://user-images.githubusercontent.com/57809798/142786306-c54ba861-39c8-40ff-9d5c-b5b72e2d8ea6.png">
 
 ### 1. Multiple Linear Regression
-[Go to file](https://github.com/syedmbari/GROUP_PROJECT/blob/syed_bari/Project_Machine_Learningvs2.ipynb)
+[Go to file](https://github.com/syedmbari/GROUP_PROJECT/blob/syed_bari/linear_regression.ipynb)
 Linear Regression is a very simple algorithm that can be implemented very easily to give satisfactory results.Furthermore, these models can be trained easily and efficiently even on systems with relatively low computational power when compared to other complex algorithms. Linear regression has a considerably lower time complexity when compared to some of the other machine learning algorithms.The mathematical equations of Linear regression are also fairly easy to understand and interpret
 
 #### Benefits
