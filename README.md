@@ -98,31 +98,36 @@ Output, Y:  Average Weighted Rating
 
 ## Machine Learning Models:
 
+#### Description of Preliminary Data Processsing
+
+-  The very first steps include importing the libraries and importing the datasets which are IMDB_movies.csv a total of 22 columns and IMDB_ratings.csv a total of 49 columns
+-  The IMDB_movies.csv contained the features titel, year, genre, duration, country, language, director, actor, writer, description, average vote, budget, review from users, review from critics
+
+<img width="1031" alt="Screen Shot 2021-11-21 at 8 06 46 PM" src="https://user-images.githubusercontent.com/57809798/142787033-ec037afe-5256-445b-9a49-d7bec435b3dd.png">
 
 
+#### Description of preliminary feature engineering and selection
+- Identify the dependent and the independent variable. After looking through the dataset the features removed were USA gross income, World gross income, metascore due to the null data. Other features were removed due to low correlation to the dependent variable "weighed average rating". The independent variable are as follows [genre, duration, country, language, weighted_average_rating, tot_voters_below_30, tot_voters_below_18, tot_voters_above_45, tot_voters_below_45, tot_male_voters, tot_female_voters]
+- The dataset where the cleaned by addressing the null values and dropping hte null rows
+- After the cleaning process the categorical data like genre, country and language carrying multiple values were addressed using binary encoding with help of excel sheets
 
-
+<img width="1029" alt="Screen Shot 2021-11-21 at 7 52 59 PM" src="https://user-images.githubusercontent.com/57809798/142786306-c54ba861-39c8-40ff-9d5c-b5b72e2d8ea6.png">
 
 ### 1. Multiple Linear Regression
+Linear Regression is a very simple algorithm that can be implemented very easily to give satisfactory results.Furthermore, these models can be trained easily and efficiently even on systems with relatively low computational power when compared to other complex algorithms. Linear regression has a considerably lower time complexity when compared to some of the other machine learning algorithms.The mathematical equations of Linear regression are also fairly easy to understand and interpret
 
 #### Benefits
+Models can be trained easily and efficiently even on systems with relatively low computational power when compared to other complex algorithms
+Linear regression fits linearly separable datasets almost perfectly and is often used to find the nature of the relationship between variables
+Overfitting is a situation that arises when a machine learning model fits a dataset very closely and hence captures the noisy data as well
 
 #### Limitations
-
-### 2. Decision Tree:
-
-#### Benefits
-
-#### Limitations
+A situation that arises when a machine learning model fails to capture the data properly.This typically occurs when the hypothesis function cannot fit the data well.
+Outliers of a data set are anomalies or extreme values that deviate from the other data points of the distribution.Data outliers can damage the performance
+Outliers can have a very big impact on linear regression's performance and hence they must be dealt with appropriately before linear regression is applied on the dataset.
 
 
-### 3. Random Forest Regression
-
-#### Benefits
-
-#### Limitations
-
-### 4. SVM
+### 2. SVM
 Since SVM is a binary classifier, we had to split the target in our data into two classications: Ratings above 7 and Ratings below 7.
 
 
@@ -133,7 +138,35 @@ Since SVM is a binary classifier, we had to split the target in our data into tw
 The dataset we used for this project is quite massive which is why training the dataset for this machine learning model took immense amount of time. One way we dealt with this issue is by selecting a random sample from the dataset and training it for the model. 
 Another limitation is that this model can only classify data in to two groups. So, instead of predicting the average rating of the movie, this model can only predict a certain window the rating can lie in.
 
-### 5. Gradient Boosting
+
+
+
+### 3. Random Forest Regression
+
+ Random Forest Regression is a supervised learning algorithm that uses ensemble learning method for regression. Ensemble learning method is a technique that combines predictions from multiple machine learning algorithms to make a more accurate prediction than a single model. A random forest regressor works with data having a numeric or continuous output and they cannot be defined by classes.
+ ##### Random Forest algorithm
+ - Pick at random k data points from the training set.
+- Build a decision tree associated to these k data points.
+- Choose the number N of trees you want to build and repeat steps 1 and 2.
+- For a new data point, make each one of your N-tree trees predict the value of y for the data point in question and assign the new data point to the average across all of the predicted y values.
+ 
+
+#### Description of how data was split into
+- Dependent and Independent variables were assigned to X(features except weighted average rating) and Y (weighted average rating) variablesrespectively
+
+- Split the dataset into the Training set and Test set. The training set contains known output from which the model learns, test set then tests the model’s predictions based on what it learned from the training set, with the random state=78.
+- Fitting the Standard Scaler with the training data. Scaling the data.
+- Create a random forest regressor, did model fitting with n_estimator from 50 to 800 with the random state being 1
+
+#### Results
+Scores for each for the models were as follows:  [0.49415757514316994,0.4947008957127814,0.4958920277984976,0.4960607807872609,0.4961116558077189,0.4958916103852188]
+
+Maximum Score: 0.496
+
+
+<img width="427" alt="Screen Shot 2021-11-21 at 9 14 47 PM" src="https://user-images.githubusercontent.com/57809798/142791162-29f355ff-1a00-43ed-bbed-3f804fa2428e.png">
+
+### 4. Gradient Boosting
 Boosting is a technique to combine a set of weak learners into a strong learner. Boosting trains a sequence of weak models.The model is trained then evaluated. After evaluating the errors of the first model, another model is trained. This time, however, the model gives extra weight to the errors from the previous model. The purpose of this weighting is to minimize similar errors in subsequent models. Then, the errors from the second model are given extra weight for the third model.
 
 #### Benefits
@@ -143,19 +176,44 @@ One of the many advantages of the AdaBoost Algorithm is it is fast, simple and e
 Gradient boosting also has few disadvantages, such as it is from empirical evidence and particularly vulnerable to uniform noise. Weak classifiers being too weak can lead to low margins and overfitting.
 
 
-### 6. Deep Learning
-
+### 5. Deep Learning
+Deep learning is a subset of ML, which is essentially a neural network with three or more layers. These neural networks attempt to simulate the behavior of the human brain—albeit far from matching its ability—allowing it to “learn” from large amounts of data. While a neural network with a single layer can still make approximate predictions, additional hidden layers can help to optimize and refine for accuracy.
 
 #### Benefits
+Features are automatically deduced and optimally tuned for desired outcome. 
+Features are not required to be extracted ahead of time. This avoids time consuming machine learning techniques.
+Robustness to natural variations in the data is automatically learned.
+The same neural network based approach can be applied to many different applications and data types.
+
 
 #### Limitations
+It requires very large amount of data in order to perform better than other techniques.
+It is extremely expensive to train due to complex data models.
+There is no standard theory to guide you in selecting right deep learning tools as it requires knowledge of topology, training method and other parameters
 
 
-**Target**: IMDb Total Average Weighted Rating
-Output: IMDb Rating
 
 
-**Results**: Accuracy
+
+
+
+
+
+
+**Results**
+##### Metrics Used to Evaluate
+
+
+Classification Models : Accuracy
+
+
+Regression Models : Mean Square Error, Score
+
+- **Multiple linear Regression** :  
+- **Support Vector Machine**
+- **Random Forest Regression**   Best Score : 0.4961116558077189
+- **Gradient Boosting**  Accuracy : 0.40275730924649394
+- **Deep Learning**
 
 # Summary of Significant Steps
 Join the four tables to create a single table, analyze the datasets
