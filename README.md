@@ -194,6 +194,7 @@ It is extremely expensive to train due to complex data models.
 There is no standard theory to guide you in selecting right deep learning tools as it requires knowledge of topology, training method and other parameters
 
 
+hv scatterplots [here] ![image](https://user-images.githubusercontent.com/70987568/142794787-512482be-eae4-4f70-8960-bc001482c248.png)
 
 
 
