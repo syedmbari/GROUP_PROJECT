@@ -47,10 +47,6 @@ Add results to database such as Postgres pgAdmin
 Reports outcomes in Tableau for Visualization.
 Final Summary
 
-AWS [here] (https://imdb-ratings-project-2021.s3.us-east-2.amazonaws.com/IMDb_Lang.csv)
-AWS [here] (https://imdb-ratings-project-2021.s3.us-east-2.amazonaws.com/IMDb_ratings.csv)
-AWS [here] (https://imdb-ratings-project-2021.s3.us-east-2.amazonaws.com/Encoded_IMDb_data.csv)
-AWS [here] (https://imdb-ratings-project-2021.s3.us-east-2.amazonaws.com/IMDb_movies1.csv)
 
 
 
@@ -221,6 +217,9 @@ AWS link for the IMDb datasets
 2. IMDb_movies.csv [Link](https://imdbdatasetuoft.s3.us-east-2.amazonaws.com/IMDb+movies.csv)
 3. Encoded_data.csv [Link](https://imdbdatasetuoft.s3.us-east-2.amazonaws.com/Encoded_Data.csv)
 4. IMDb_data.csv [Link](https://imdbdatasetuoft.s3.us-east-2.amazonaws.com/IMDb_data.csv)
+5. IMDB_lang.csv [here](https://imdb-ratings-project-2021.s3.us-east-2.amazonaws.com/IMDb_Lang.csv)
+6. IMDB_ratings.csv [here](https://imdb-ratings-project-2021.s3.us-east-2.amazonaws.com/IMDb_ratings.csv)
+
 
 # Dashboard Links
 
