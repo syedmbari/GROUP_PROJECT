@@ -4,6 +4,11 @@
 - [Reason for the topic](#reason-for-the-topic)
 - [Data used](#data-used)
 - [Purpose of Project](#purpose-of-project)
+- [Segment2 Google Slide Presentation](https://github.com/syedmbari/GROUP_PROJECT/blob/syed_bari/Group%20Project-%20Movie%20DataSet.pdf)
+- [Machine Learning Model](## Machine Learning Models)
+- [Machine Learning Model](## Machine Learning Models)
+- [AWS Database Links](# AWS Database Links)
+- [Dashboard Links](# Dashboard Links)
 
 ## Topic: *PREDICTING IMDb RATINGS*
 
