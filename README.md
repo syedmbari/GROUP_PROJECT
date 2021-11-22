@@ -172,7 +172,7 @@ There is no standard theory to guide you in selecting right deep learning tools 
 hv scatterplots [here] ![image](https://user-images.githubusercontent.com/70987568/142794787-512482be-eae4-4f70-8960-bc001482c248.png)
 
 
-
+## Additional ML Models [here](https://github.com/syedmbari/GROUP_PROJECT/blob/syed_bari/Project_Imbd_ratings1.ipynb)
 
 
 
