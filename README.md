@@ -22,7 +22,6 @@ IMDb Movies.csv
 ![image](https://user-images.githubusercontent.com/70987568/140666157-9f9961c7-88a1-4364-a074-9c60acedb134.png)
 IMDb Ratings.csv
 
-![image](https://user-images.githubusercontent.com/70987568/140666167-83f28585-2f7a-4a0e-b838-31daa99e7c2a.png)
 
 Machine Learning Models: Linear Regression, Logistic Regression, Random Forest,  SVM, K-means Algorithm
 
