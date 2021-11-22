@@ -52,8 +52,7 @@ AWS [here] (https://imdb-ratings-project-2021.s3.us-east-2.amazonaws.com/IMDb_ra
 AWS [here] (https://imdb-ratings-project-2021.s3.us-east-2.amazonaws.com/Encoded_IMDb_data.csv)
 AWS [here] (https://imdb-ratings-project-2021.s3.us-east-2.amazonaws.com/IMDb_movies1.csv)
 
-Tableau [here] (https://public.tableau.com/app/profile/adegbenga.olusoji.ayoola/viz/GROUPPROJECT_16362489603570/AverageVotebyCountry?publish=yes)
-Tableau [here] (https://public.tableau.com/app/profile/adegbenga.olusoji.ayoola/viz/GROUPPROJECT_16362489603570/Sheet1?publish=yes)
+
 
 **Percentage of voting**
 
@@ -215,6 +214,23 @@ Regression Models : Mean Square Error, Score
 - **Gradient Boosting**  Accuracy : 0.40275730924649394
 - **Deep Learning**
 
+# AWS Database Links
+
+AWS link for the IMDb datasets
+1. IMDb_ratings.csv [ Link ](https://imdbdatasetuoft.s3.us-east-2.amazonaws.com/IMDb+ratings.csv) 
+2. IMDb_movies.csv [Link](https://imdbdatasetuoft.s3.us-east-2.amazonaws.com/IMDb+movies.csv)
+3. Encoded_data.csv [Link](https://imdbdatasetuoft.s3.us-east-2.amazonaws.com/Encoded_Data.csv)
+4. IMDb_data.csv [Link](https://imdbdatasetuoft.s3.us-east-2.amazonaws.com/IMDb_data.csv)
+
+# Dashboard Links
+
+- [Tableau link](https://public.tableau.com/app/profile/syed.bari/viz/CapstoneSegment1_16362709165670/Dashboard1?publish=yes)
+- [Tableau link (Language vs Weighted Av. rating)](https://public.tableau.com/app/profile/wardah.anis/viz/languagevsaveragerating/Sheet1?publish=yes)
+- [Tableau link (Country vs Weighted Av. rating)](https://public.tableau.com/app/profile/wardah.anis/viz/CountryvsAverageRating/Sheet1?publish=yes)
+- Tableau [here](https://public.tableau.com/app/profile/adegbenga.olusoji.ayoola/viz/GROUPPROJECT_16362489603570/AverageVotebyCountry?publish=yes)
+- Tableau [here](https://public.tableau.com/app/profile/adegbenga.olusoji.ayoola/viz/GROUPPROJECT_16362489603570/Sheet1?publish=yes)
+
+
 # Summary of Significant Steps
 Join the four tables to create a single table, analyze the datasets
 
@@ -236,12 +252,6 @@ Join the four tables to create a single table, analyze the datasets
 
 - Final Summary
 
-- [Tableau link](https://public.tableau.com/app/profile/syed.bari/viz/CapstoneSegment1_16362709165670/Dashboard1?publish=yes)
-- [Tableau link (Language vs Weighted Av. rating)](https://public.tableau.com/app/profile/wardah.anis/viz/languagevsaveragerating/Sheet1?publish=yes)
-- [Tableau link (Country vs Weighted Av. rating)](https://public.tableau.com/app/profile/wardah.anis/viz/CountryvsAverageRating/Sheet1?publish=yes)
 
 
 
-## Purpose of Project
-)
-Predicting the IMdb rating (weighte average_votes) using machine learning algorithms and finding suitable  model for best accuracy
