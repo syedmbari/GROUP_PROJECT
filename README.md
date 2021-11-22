@@ -1,6 +1,6 @@
 # GROUP_PROJECT
 
-[Segment2 Google Slide Presentation](https://github.com/syedmbari/GROUP_PROJECT/blob/syed_bari/Group%20Project-%20Movie%20DataSet.pdf)
+[Link Google Slide Presentation](https://github.com/syedmbari/GROUP_PROJECT/blob/syed_bari/Group%20Project-%20Movie%20DataSet.pdf)
 
 
 - [Topic](#topic)
