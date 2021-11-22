@@ -124,6 +124,7 @@ Outliers can have a very big impact on linear regression's performance and hence
 
 
 ### 2. SVM
+
 [Go to File]()
 Since SVM is a binary classifier, we had to split the target in our data into two classications: Ratings above 7 and Ratings below 7.
 
@@ -165,6 +166,8 @@ Maximum Score: 0.496
 <img width="427" alt="Screen Shot 2021-11-21 at 9 14 47 PM" src="https://user-images.githubusercontent.com/57809798/142791162-29f355ff-1a00-43ed-bbed-3f804fa2428e.png">
 
 ### 4. Gradient Boosting
+[Go to file](https://github.com/syedmbari/GROUP_PROJECT/blob/7695202e7aa54d39c49720a08fb7ba1d4876e55b/Gradient_Boosting.ipynb)
+
 Boosting is a technique to combine a set of weak learners into a strong learner. Boosting trains a sequence of weak models.The model is trained then evaluated. After evaluating the errors of the first model, another model is trained. This time, however, the model gives extra weight to the errors from the previous model. The purpose of this weighting is to minimize similar errors in subsequent models. Then, the errors from the second model are given extra weight for the third model.
 
 #### Benefits
@@ -175,6 +178,7 @@ Gradient boosting also has few disadvantages, such as it is from empirical evide
 
 
 ### 5. Deep Learning
+[Go to file]()
 Deep learning is a subset of ML, which is essentially a neural network with three or more layers. These neural networks attempt to simulate the behavior of the human brain—albeit far from matching its ability—allowing it to “learn” from large amounts of data. While a neural network with a single layer can still make approximate predictions, additional hidden layers can help to optimize and refine for accuracy.
 
 #### Benefits
