@@ -190,14 +190,18 @@ There is no standard theory to guide you in selecting right deep learning tools 
 
 **Results**
 ##### Metrics Used to Evaluate
+
+
 Classification Models : Accuracy
+
+
 Regression Models : Mean Square Error, Score
 
-**Multiple linear Regression** :  
-**Support Vector Machine**
-**Random Forest Regression**   Best Score : 0.4961116558077189
-**Gradient Boosting**  Accuracy : 0.40275730924649394
-**Deep Learning**
+- **Multiple linear Regression** :  
+- **Support Vector Machine**
+- **Random Forest Regression**   Best Score : 0.4961116558077189
+- **Gradient Boosting**  Accuracy : 0.40275730924649394
+- **Deep Learning**
 
 
 # Summary of Significant Steps
