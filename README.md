@@ -5,10 +5,9 @@
 - [Data used](#data-used)
 - [Purpose of Project](#purpose-of-project)
 - [Segment2 Google Slide Presentation](https://github.com/syedmbari/GROUP_PROJECT/blob/syed_bari/Group%20Project-%20Movie%20DataSet.pdf)
-- [Machine Learning Model](## Machine Learning Models)
-- [Machine Learning Model](## Machine Learning Models)
-- [AWS Database Links](# AWS Database Links)
-- [Dashboard Links](# Dashboard Links)
+- [Machine Learning Model](#machine-learning-models)
+- [AWS Database Links](#aws-database-links)
+- [Dashboard Links](#dashboard-links)
 
 ## Topic: *PREDICTING IMDb RATINGS*
 
