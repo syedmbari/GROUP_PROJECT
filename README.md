@@ -17,22 +17,6 @@ IMDb Movie Review Prediction
 The purpose is to find the best Machine learning Algorithms that can predict the imdb rating based on the features given in these four tables. To achieve this from Various Models the model with the lowest root mean squared error, best accuracy, and best confusion matrix is selected.
 
 
-IMDb Movie dataset tables:
-IMDb Movies.csv
-![image](https://user-images.githubusercontent.com/70987568/140666157-9f9961c7-88a1-4364-a074-9c60acedb134.png)
-IMDb Ratings.csv
-
-
-Machine Learning Models: Linear Regression, Logistic Regression, Random Forest,  SVM, K-means Algorithm
-
-Target: IMDb Total Average Weighted Rating
-Output: IMDb Rating
-
-Feature:  genre, duration, country, language, tot_voters_below_30, tot_voters_below_18, tot_voters_above_45, tot_voters_below_45, tot_male_voters, tot_female_voters
-Categorical Feature: title, year, genre, country, language, direction, reviews
-Quantitative Feature: Date, Duration, vote, budget, gross income, total votes, us_voters rating, 
-
-
 **Percentage of voting**
 
 ![Votes_percent](votes_percent.png)
@@ -60,7 +44,6 @@ IMDb Movies.csv
 
 IMDb Ratings.csv
 
-![image](https://user-images.githubusercontent.com/70987568/140665970-26472cbf-39b3-4249-a0c6-4f6a8c1d4dca.png)
 
 
 Tables Used: Imdb_ratings.csv, IMDB_movie.csv
