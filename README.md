@@ -66,6 +66,7 @@ Output, Y:  Average Weighted Rating
 ## Machine Learning Models:
 
 #### Description of Preliminary Data Processsing
+[Cleaning Data Code here ](https://github.com/syedmbari/GROUP_PROJECT/blob/syed_bari/Cleaning_Data.ipynb)
 
 -  The very first steps include importing the libraries and importing the datasets which are IMDB_movies.csv a total of 22 columns and IMDB_ratings.csv a total of 49 columns
 -  The IMDB_movies.csv contained the features titel, year, genre, duration, country, language, director, actor, writer, description, average vote, budget, review from users, review from critics
