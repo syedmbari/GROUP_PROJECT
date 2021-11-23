@@ -101,6 +101,8 @@ Outliers can have a very big impact on linear regression's performance and hence
 [Go to File](https://github.com/syedmbari/GROUP_PROJECT/blob/syed_bari/SVM.ipynb)
 Since SVM is a binary classifier, we had to split the target in our data into two classications: Ratings above 7 and Ratings below 7.
 
+![SVM ](https://user-images.githubusercontent.com/70987568/142953175-c860622d-d034-424d-a179-44fd7cc933de.png)
+
 
 #### Benefits
 
@@ -170,6 +172,9 @@ There is no standard theory to guide you in selecting right deep learning tools 
 
 
 hv scatterplots [here] ![image](https://user-images.githubusercontent.com/70987568/142794787-512482be-eae4-4f70-8960-bc001482c248.png)
+
+Clusters of features [here] (![image](https://user-images.githubusercontent.com/70987568/142949152-51d88438-5eef-43d9-b067-e7d2af39f995.png)
+
 
 
 ## Additional ML Models [here](https://github.com/syedmbari/GROUP_PROJECT/blob/syed_bari/Project_Imbd_ratings1.ipynb)
