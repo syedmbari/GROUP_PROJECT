@@ -101,7 +101,8 @@ Outliers can have a very big impact on linear regression's performance and hence
 [Go to File](https://github.com/syedmbari/GROUP_PROJECT/blob/syed_bari/SVM.ipynb)
 Since SVM is a binary classifier, we had to split the target in our data into two classications: Ratings above 7 and Ratings below 7.
 
-![SVM ](https://user-images.githubusercontent.com/70987568/142953175-c860622d-d034-424d-a179-44fd7cc933de.png)
+![SVM ] SVM model accuracy: 1.000 for viwers classified as English speaking  and Non-English speaking
+
 
 
 #### Benefits
