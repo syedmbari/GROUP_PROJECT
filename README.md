@@ -60,6 +60,7 @@ Tableau [here] (https://public.tableau.com/app/profile/adegbenga.olusoji.ayoola/
 Tableau [here] (https://public.tableau.com/app/profile/adegbenga.olusoji.ayoola/viz/GROUPPROJECT_16362489603570/Sheet1?publish=yes)
 
 Deep Learning ![image](https://user-images.githubusercontent.com/70987568/142970372-b095ccde-1b0c-4ac4-80a1-4688f398df04.png)
+SVM ![image](https://user-images.githubusercontent.com/70987568/142970476-3dd5c8a7-ab9d-40fc-8573-0297467c6232.png)
 
 ## Data used
 We collected all movie data from [here](https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset?select=IMDb+ratings.csv)
