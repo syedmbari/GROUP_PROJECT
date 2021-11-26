@@ -119,20 +119,22 @@ Another limitation is that this model can only classify data in to two groups. S
 [Go to file](https://github.com/syedmbari/GROUP_PROJECT/blob/49869298575b03ff4dc39f7266fc98133f563a25/Random_Forest_Regression%20(1).ipynb)
 
  Random Forest Regression is a supervised learning algorithm that uses ensemble learning method for regression. Ensemble learning method is a technique that combines predictions from multiple machine learning algorithms to make a more accurate prediction than a single model. A random forest regressor works with data having a numeric or continuous output and they cannot be defined by classes.
- ##### Random Forest algorithm
- - Pick at random k data points from the training set.
-- Build a decision tree associated to these k data points.
-- Choose the number N of trees you want to build and repeat steps 1 and 2.
-- For a new data point, make each one of your N-tree trees predict the value of y for the data point in question and assign the new data point to the average across all of the predicted y values.
  
-
 #### Description of how data was split into
 - Dependent and Independent variables were assigned to X(features except weighted average rating) and Y (weighted average rating) variablesrespectively
 
 - Split the dataset into the Training set and Test set. The training set contains known output from which the model learns, test set then tests the model’s predictions based on what it learned from the training set, with the random state=78.
 - Fitting the Standard Scaler with the training data. Scaling the data.
 - Create a random forest regressor, did model fitting with n_estimator from 50 to 800 with the random state being 1
-
+##### Benefits
+Reduces overfitting in decision trees and improved performace
+Random Forests are not influenced by outliers to a fair degree. It does this by binning the variables
+Automates missing values present in the data
+Normalising of data is not required as it uses a rule-based approach.
+##### Limitations
+Random forest is like a black box algorithm, you have very little control over what the model does
+Requires much time for training as it combines a lot of decision trees to determine the class
+Due to ensemble of decision trees, it also suffers interpretability and fails to determine the significance of each variable
 #### Results
 Scores for each for the models were as follows:  [0.49415757514316994,0.4947008957127814,0.4958920277984976,0.4960607807872609,0.4961116558077189,0.4958916103852188]
 
