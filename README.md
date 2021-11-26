@@ -215,6 +215,7 @@ AWS link for the IMDb datasets
 - [Tableau link](https://public.tableau.com/app/profile/syed.bari/viz/CapstoneSegment1_16362709165670/Dashboard1?publish=yes)
 - [Tableau link (Language vs Weighted Av. rating)](https://public.tableau.com/app/profile/wardah.anis/viz/languagevsaveragerating/Sheet1?publish=yes)
 - [Tableau link (Country vs Weighted Av. rating)](https://public.tableau.com/app/profile/wardah.anis/viz/CountryvsAverageRating/Sheet1?publish=yes)
+- [Tableau link (Genre vs Average Rating)](https://public.tableau.com/app/profile/wardah.anis/viz/GENREVSRATING/Sheet1?publish=yes)
 - Tableau [here](https://public.tableau.com/app/profile/adegbenga.olusoji.ayoola/viz/GROUPPROJECT_16362489603570/AverageVotebyCountry?publish=yes)
 - Tableau [here](https://public.tableau.com/app/profile/adegbenga.olusoji.ayoola/viz/GROUPPROJECT_16362489603570/Sheet1?publish=yes)
 
