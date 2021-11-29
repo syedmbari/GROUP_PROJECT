@@ -59,7 +59,14 @@ Tableau [here] (https://public.tableau.com/app/profile/adegbenga.olusoji.ayoola/
 
 Tableau [here] (https://public.tableau.com/app/profile/adegbenga.olusoji.ayoola/viz/GROUPPROJECT_16362489603570/Sheet1?publish=yes)
 
-Deep Learning ![image](https://user-images.githubusercontent.com/70987568/142970372-b095ccde-1b0c-4ac4-80a1-4688f398df04.png)
+Deep Learning 
+
+![image](https://user-images.githubusercontent.com/70987568/142970372-b095ccde-1b0c-4ac4-80a1-4688f398df04.png)
+
+![image](https://user-images.githubusercontent.com/70987568/143810406-8279b49f-1860-4f81-bb0b-76b5f503fd1c.png)
+
+![image](https://user-images.githubusercontent.com/70987568/143810435-24f49342-b993-4832-91c9-22516127e7d3.png)
+
 SVM ![image](https://user-images.githubusercontent.com/70987568/142970476-3dd5c8a7-ab9d-40fc-8573-0297467c6232.png)
 
 ## Data used
