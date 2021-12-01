@@ -25,6 +25,19 @@ We collected all movie data from [here](https://www.kaggle.com/stefanoleone992/i
 5. IMDB_lang.csv [here](https://imdb-ratings-project-2021.s3.us-east-2.amazonaws.com/IMDb_Lang.csv)
 6. IMDB_ratings.csv [here](https://imdb-ratings-project-2021.s3.us-east-2.amazonaws.com/IMDb_ratings.csv)
 
+
+**Percentage of voting**
+
+![Votes_percent](votes_percent.png)
+
+**Highest genre of votes from 8 to 10**
+
+![Genre](genre.png)
+
+**Comparing the duration from 8 to 10**
+
+![duration](duration.png)
+
 ## Purpose of Project
 
 
